@@ -13,7 +13,7 @@ const Main = () => {
 		if (!localStorage.getItem('token'))
 			history.location = "/login";
 
-		axios.get('https://crudcrud.com/api/7f58ea53539f49f0850183944fec9b45/productlists')
+		axios.get('https://crudcrud.com/api/c901b5bf0c1a46ef9d3c41990052223a/productlists')
 			.then(res => {
 				setdata(res.data);
 				console.log(res.data)
@@ -34,7 +34,7 @@ const Main = () => {
 		const confirm = window.confirm("Are you sure, want to delete?")
 
 		if(confirm){
-			axios.delete(`https://crudcrud.com/api/7f58ea53539f49f0850183944fec9b45/productlists/${id}`)
+			axios.delete(`https://crudcrud.com/api/c901b5bf0c1a46ef9d3c41990052223a/productlists/${id}`)
 			.then(res=> {
 				history.location="/home";
 				 window.location.reload();})

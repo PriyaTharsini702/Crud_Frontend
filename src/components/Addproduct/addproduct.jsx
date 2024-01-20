@@ -23,7 +23,7 @@ const Addproduct = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
         console.log(data)
-        axios.post('https://crudcrud.com/api/7f58ea53539f49f0850183944fec9b45/productlists', data)
+        axios.post('https://crudcrud.com/api/c901b5bf0c1a46ef9d3c41990052223a/productlists', data)
 			.then(res => {
 				console.log(res)
                 navigate('/home')

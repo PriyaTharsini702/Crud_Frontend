@@ -16,7 +16,7 @@ const Update = () => {
 
 
     useEffect (() => {
-    axios.get(`https://crudcrud.com/api/7f58ea53539f49f0850183944fec9b45/productlists/${_id}`)
+    axios.get(`https://crudcrud.com/api/c901b5bf0c1a46ef9d3c41990052223a/productlists/${_id}`)
     .then(res => setValues(res.data))
     .catch(err => console.log(err));
     }, [_id])
@@ -32,7 +32,7 @@ const Update = () => {
 		e.preventDefault();
          const {id,name,price,description} = value
          console.log(name,'helllllo')
-        axios.put(`https://crudcrud.com/api/7f58ea53539f49f0850183944fec9b45/productlists/${_id}`,{id,name,price,description})
+        axios.put(`https://crudcrud.com/api/c901b5bf0c1a46ef9d3c41990052223a/productlists/${_id}`,{id,name,price,description})
 			.then(res => {
 				console.log(res)
                 navigate('/home')

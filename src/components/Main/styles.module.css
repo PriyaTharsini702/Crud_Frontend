@@ -33,7 +33,7 @@
 .bgimage{
 	width: 22%;
 	min-height: 50vh;
-	background: url('C:\Projects\CRUD_operation\client\src\Assests\login_pic.jpg');
+	background: url('../../Assests/login_pic.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 			
@@ -42,7 +42,7 @@
 .bgimage1{
 	width: 60%;
 	min-height: 50vh;
-	background: url('C:\Projects\CRUD_operation\client\src\Assests\pongal_pic.jpg');
+	background: url('../../Assests/pongal_pic.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 			
@@ -51,7 +51,7 @@
 .bgimage2{
 	width: 22%;
 	min-height: 50vh;
-	background: url('C:\Projects\CRUD_operation\client\src\Assests\landing_page_men.jpg');
+	background: url('../../Assests/landing_page_men.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 			
