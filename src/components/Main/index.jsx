@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 
 const Main = () => {
 	const [selectedSeats, setSelectedSeats] = useState([]);
-
 	const [count, setCount] = useState(0);
 
 	const [ticket, setTicket] = useState(0);
